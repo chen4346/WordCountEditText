@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+	<EditText 
+	    android:id="@+id/et"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:clickable="true"
+	    android:background="@null"
+	    android:gravity="top"
+	    android:textCursorDrawable="@null"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+	    />
+	<TextView 	    
+	    android:id="@+id/tvNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        />
+	<View
+        android:id="@+id/vLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+</LinearLayout>
